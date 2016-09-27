@@ -1,0 +1,38 @@
+/* Big                              */
+/* ---                              */
+/*                                  */
+/* https://soundcloud.com/you/likes */
+
+body {
+  background: none;
+}
+
+.l-nav,
+.collectionSection__subHeading {
+    display: none;
+}
+
+.l-container {
+    width: 100%;
+}
+
+.l-container.l-content {
+    padding: 0 0;
+}
+
+.header {
+    position: inherit;
+}
+
+
+.badgeList {
+    margin: 0;
+}
+
+.badgeList__item {
+    padding-right: 0;
+}
+
+.genericBadge {
+    height: 225px;
+}
