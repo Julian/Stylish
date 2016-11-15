@@ -114,6 +114,10 @@ div.share-icons {
     display: none;
 }
 
+span.share-links {
+    display: none;
+}
+
 span.download {
   display: none;
 }
