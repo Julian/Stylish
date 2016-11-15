@@ -110,6 +110,10 @@ div.act_info {
   display: none;
 }
 
+div.share-icons {
+    display: none;
+}
+
 span.download {
   display: none;
 }
