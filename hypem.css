@@ -1,0 +1,115 @@
+/* Sidebar           */
+/* -------           */
+/*                   */
+/* https://hypem.com */
+
+body {
+  font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+}
+
+/* Clean up junk. */
+#menu-friends,
+#menu-item-hypehotel,
+#sponsored_tracks,
+.hypem-events,
+#content-right {
+  display: none;
+}
+
+ul.menu {
+  float: left;
+}
+
+#message h1 {
+  font-size: 18px;
+}
+
+span.remix-link,
+span.remix-count {
+  font-size: 12px!important;
+}
+#content-left h3.track_name {
+  font-size: 20px;
+}
+
+.section .tools {
+  width: 50px;
+}
+
+.section .tools a.play-ctrl,
+.section .tools .haarp-fav-ctrl {
+  font-size: 10px;
+}
+
+#search-form {
+  display: inherit;
+  position: inherit;
+  z-index: inherit;
+  float: right;
+  padding-right: 10px;
+}
+
+#search-form > input[type="submit"] {
+  display: none;
+}
+
+#logo-txt {
+  text-align: center;
+  float: inherit;
+  padding: 0px;
+  width: 100%;
+}
+
+.section .meta {
+  font-size: 8px;
+}
+
+.section-player {
+  padding-right: 90px;
+}
+
+#player-container #player-inner #player-controls {
+  width: 100%;
+}
+
+#player-container #player-inner #player-controls #player-timebar {
+  width: 100%;
+}
+
+#player-container #player-inner #player-controls #player-timebar #player-progress-outer {
+  width: 55%;
+}
+
+#player-container #player-inner #player-controls #player-nowplaying {
+  animation: marquee 5s ease-in-out infinite alternate;
+}
+
+a.read-post {
+  display: none;
+}
+
+
+@keyframes marquee {
+    from { text-indent: 0px; }
+    to { text-indent: -210px; }
+}
+
+.post_info {
+  display: none;
+}
+
+#submenu a {
+  font-size: 10px;
+}
+
+#submenu-filter > span.title {
+  display: none;
+}
+
+div.act_info {
+  display: none;
+}
+
+span.download {
+  display: none;
+}
