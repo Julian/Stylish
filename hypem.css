@@ -5,24 +5,36 @@
 
 body {
   font-family: 'Roboto Condensed', 'Helvetica', sans-serif;
+  min-width: 0px;
 }
 
 /* Clean up junk. */
+#content-right,
 #menu-friends,
 #menu-item-hypehotel,
+#menu-item-supportus,
+#message h1
+#search-form > input[type="submit"]
 #sponsored_tracks,
-#menu-item-supportus
+#submenu-filter > span.title,
 .hypem-events,
-#content-right {
+.on-bandcamp,
+.post_info,
+a.read-post,
+div.act_info,
+div.share-icons,
+span.download,
+span.share-links,
+{
   display: none;
 }
 
-ul.menu {
-  float: left;
+#submenu a {
+  font-size: 10px;
 }
 
-#message h1 {
-  font-size: 18px;
+.section .meta {
+  font-size: 8px;
 }
 
 span.remix-link,
@@ -31,10 +43,6 @@ span.remix-count {
 }
 #content-left h3.track_name {
   font-size: 20px;
-}
-
-.section .tools {
-  width: 50px;
 }
 
 .section .tools a.play-ctrl,
@@ -50,8 +58,8 @@ span.remix-count {
   padding-right: 10px;
 }
 
-#search-form > input[type="submit"] {
-  display: none;
+.section .tools {
+  width: 50px;
 }
 
 #logo-txt {
@@ -59,14 +67,6 @@ span.remix-count {
   float: inherit;
   padding: 0px;
   width: 100%;
-}
-
-.section .meta {
-  font-size: 8px;
-}
-
-.section-player {
-  padding-right: 90px;
 }
 
 #player-container #player-inner #player-controls {
@@ -80,45 +80,15 @@ span.remix-count {
 #player-container #player-inner #player-controls #player-timebar #player-progress-outer {
   width: 55%;
 }
+.section-player {
+  padding-right: 90px;
+}
 
 #player-container #player-inner #player-controls #player-nowplaying {
   animation: marquee 5s ease-in-out infinite alternate;
 }
 
-a.read-post {
-  display: none;
-}
-
-
 @keyframes marquee {
     from { text-indent: 0px; }
     to { text-indent: -210px; }
-}
-
-.post_info {
-  display: none;
-}
-
-#submenu a {
-  font-size: 10px;
-}
-
-#submenu-filter > span.title {
-  display: none;
-}
-
-div.act_info {
-  display: none;
-}
-
-div.share-icons {
-    display: none;
-}
-
-span.share-links {
-    display: none;
-}
-
-span.download {
-  display: none;
 }
