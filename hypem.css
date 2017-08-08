@@ -13,7 +13,7 @@ body {
 #menu-friends,
 #menu-item-hypehotel,
 #menu-item-supportus,
-#message h1
+#message h1,
 #search-form > input[type="submit"]
 #sponsored_tracks,
 #submenu-filter > span.title,
@@ -24,7 +24,7 @@ a.read-post,
 div.act_info,
 div.share-icons,
 span.download,
-span.share-links,
+span.share-links
 {
   display: none;
 }
