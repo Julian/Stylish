@@ -9,6 +9,10 @@ body {
   min-width: 0px;
 }
 
+#content {
+    padding: 0;
+}
+
 /* Clean up junk. */
 #box,
 #content-right,
