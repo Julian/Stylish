@@ -77,6 +77,10 @@ span.remix-count {
   padding-right: 10px;
 }
 
+#content-wrapper {
+    width: 100%;
+}
+
 #content-left,
 .content-centered,
 .content-right {
